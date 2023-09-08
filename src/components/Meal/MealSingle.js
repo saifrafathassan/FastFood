@@ -44,14 +44,14 @@ const MealSingle = ({meal}) => {
                   <span className='text-uppercase ls-2'>{meal?.category}</span>
                 </div>
 
-                <div className='source flex align-center'>
+                <div className='source flex align-center py-1'>
                     <span className='fw-7'>Source: &nbsp;</span>
                     <a href={meal.source} target='_blank' rel='noreferrer'>
-                      {meal.source ? (meal?.source).substring(0, 40) + '...' : 'Not found'}
+                      {meal.source ? (meal?.source).substring(0, 40) : 'Not found'}
                     </a>
                 </div>
 
-                <div className='tags flex align-start flex-wrap'>
+                <div className='tags flex align-start flex-wrap py-1'>
                   <h6 className='fs-16'>Tags:</h6>
                   <ul className='flex align-center flex-wrap'>
                     {tags?.map((tag, idx) => (<li key={idx} className='fs-14'>{tag}</li>))}
