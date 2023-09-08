@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Header.scss'
 import {BsSearch} from 'react-icons/bs'
 import { useMealContext } from '../../context/mealContext'
