@@ -1,6 +1,6 @@
 <h2>About the project</h2>
 
-  <p>Fast food an website with API displaying all foods by searching about the favorite meal showing all categories and everything about the meal</p>
+  <p><b>Fast food</b> a website with API displaying all foods by searching about the favorite meal showing all categories and everything about the meal</p>
 
 👉 Live Demo: <a href='https://fast-foods-api.netlify.app/'>Live Demo</a>
 
